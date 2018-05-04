@@ -1,12 +1,27 @@
 @import "bootstrap";
 
+// Utility
+
 .clear {
 	clear: both;
 }
 
+// General
+
+hr {
+	clear: both;
+}
+
+// Header
+
+header {
+	border-top: 9px solid #222222;
+}
+
 .circle {
+	font-family: 'Playfair Display', serif;
 	font-weight: bold;
-	font-style: italic;
+	letter-spacing: 0.2px;
 	position: relative;
 	border-radius: 100%;
 	background: #573894;
@@ -14,9 +29,10 @@
 	width: 80px;
 	height: 80px;
 	margin: 10px;
+	padding-top: 1px;
 	text-align: center;
 	color: #FFF;
-	font-size: 10px;
+	font-size: 11px;
 	line-height: 16px;
 	cursor: pointer;
 	transform: rotate(11deg);
@@ -25,7 +41,7 @@
 }
 
 .slogan {
-	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	padding-top: 26px;
 }
@@ -36,13 +52,21 @@
 
 .links a {
 	color: black;
+	font-size: 25px;
 	border-bottom: 1px solid #573894;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
 }
 
-header {
-	border-top: 9px solid #222222;
+// Content
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 48px;
 }
 
-hr {
-	clear: both;
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
 }
