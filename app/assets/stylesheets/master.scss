@@ -76,11 +76,13 @@ h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	font-size: 48px;
+	margin-bottom: 2rem;
 }
 
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
+	margin-bottom: 2rem;
 }
 
 h2 span {
@@ -90,16 +92,21 @@ h2 span {
 
 // Footer
 
+.footer .row > div {
+	margin-bottom: 1rem;
+}
+
 .next-quote {
 	color: #db0666;
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .footer-blurb {
 	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 	font-style: italic;
-	font-size: 10px;
+	font-size: 13px;
 }
 
 // About page
