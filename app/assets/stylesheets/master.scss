@@ -61,9 +61,14 @@ header {
 .links a {
 	color: black;
 	font-size: 25px;
-	border-bottom: 1px solid #573894;
+	border-bottom: 2px solid;
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: #573894;
 }
 
 // Footer
@@ -82,7 +87,7 @@ header {
 .footer-blurb {
 	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 	font-style: italic;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 @media (max-width: 750px) {
@@ -107,7 +112,7 @@ h2 {
 }
 
 h2 span {
-	color: #dddddd;
+	color: #aaaaaa;
 	font-family: 'Playfair Display', serif;
 }
 

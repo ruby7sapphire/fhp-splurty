@@ -3,13 +3,13 @@
 	<head>
 		<title>Splurty</title>
 		<%= csrf_meta_tags %>
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 	</head>
 
 	<body>
-		<header class="row">
+		<header class="row m-0">
 			<div class="col-3">
 				<%= link_to root_path, class: 'logo' do %>
 					<div class="circle">
@@ -25,7 +25,7 @@
 			<div class="col col-sm-4 hidden-xs-down slogan">
 				Splurting out unsolicited advice about design since 2018
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+			<div class="col-8 offset-1 offset-sm-0 col-sm-5 links">
 				<!-- Button trigger modal -->
 				<%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
 				&nbsp;&nbsp;
